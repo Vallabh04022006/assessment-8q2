@@ -5,57 +5,56 @@
 
     <style>
         body {
-            font-family: Arial;
             text-align: center;
-            margin: 40px;
+            font-family: Arial;
+            background-color: lightblue;
         }
 
-        .container {
-            width: 500px;
-            margin: auto;
-            border: 1px solid black;
-            padding: 25px;
+        h1 {
+            color: darkblue;
+        }
+
+        form {
+            background-color: white;
+            padding: 20px;
+            margin: 30px auto;
+            width: 400px;
         }
 
         input {
-            width: 90%;
-            padding: 10px;
             margin: 8px;
+            padding: 8px;
         }
 
         button {
-            padding: 10px 25px;
+            padding: 10px 20px;
         }
     </style>
 </head>
 
 <body>
 
-<div class="container">
+    <h1>Student Event Registration</h1>
 
-   <h1>Tech Fest 2026 - Updated Version</h1>
+    <h2>DevOps Workshop</h2>
 
     <p>
-    Updated Tech Fest 2026 registration portal.
-</p>
+        Learn about Docker, Kubernetes and CI/CD.
+    </p>
 
-    <h2>Student Registration</h2>
+    <form>
+        <input type="text" placeholder="Student Name"><br>
 
-    <input type="text" placeholder="Student Name">
+        <input type="text" placeholder="Register Number"><br>
 
-    <input type="text" placeholder="Register Number">
+        <input type="text" placeholder="Department"><br>
 
-    <input type="text" placeholder="Department">
+        <input type="email" placeholder="Email"><br>
 
-    <input type="email" placeholder="Email">
+        <input type="date"><br>
 
-    <input type="date">
-
-    <br>
-
-    <button>Register</button>
-
-</div>
+        <button type="submit">Register</button>
+    </form>
 
 </body>
 </html>
